@@ -1,5 +1,5 @@
 
-Opis programu:
+# Opis programu:
 
 Ten program to prosty budżet domowy, który umożliwia użytkownikowi zarządzanie wydatkami. Oto główne cechy i funkcje programu:
 
@@ -23,4 +23,4 @@ Polece import_csv(csv_file): Importuje wydatki z pliku CSV i dodaje je do bazy d
 
 Polece export_python(): Wyświetla wydatki w formie listy Python.
 
-Ten program umożliwia użytkownikowi śledzenie i zarządzanie wydatkami, generowanie raportów oraz importowanie danych z pliku CSV. Jest przykładem prostego budżetu domowego napisanego w języku Python.
+## Ten program umożliwia użytkownikowi śledzenie i zarządzanie wydatkami, generowanie raportów oraz importowanie danych z pliku CSV. Jest przykładem prostego budżetu domowego napisanego w języku Python.
