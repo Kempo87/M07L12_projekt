@@ -11,7 +11,7 @@ def test_valid_expense():
 def test_invalid_expense():
     with pytest.raises(ValueError):
         Expense(2, 0, "Invalid Expense")
-s
+
 def test_is_big():
     expense1 = Expense(3,1500, "Big Expense")
     expense2 = Expense(4, 500, "Small Expense")
