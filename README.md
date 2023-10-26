@@ -15,12 +15,12 @@ Funkcja print_report(): Wyświetla raport z wydatkami, prezentując identyfikato
 
 Grupa poleceń Click cli(): Definiuje grupę poleceń dostępnych w programie.
 
-Polece report(): Wyświetla raport z wydatkami i łączny koszt.
+Polecenie report(): Wyświetla raport z wydatkami i łączny koszt.
 
-Polece add(amount, desc): Pozwala użytkownikowi dodać nowy wydatek, podając kwotę i opis.
+Polecenie add(amount, desc): Pozwala użytkownikowi dodać nowy wydatek, podając kwotę i opis.
 
-Polece import_csv(csv_file): Importuje wydatki z pliku CSV i dodaje je do bazy danych.
+Polecenie import_csv(csv_file): Importuje wydatki z pliku CSV i dodaje je do bazy danych.
 
-Polece export_python(): Wyświetla wydatki w formie listy Python.
+Polecenie export_python(): Wyświetla wydatki w formie listy Python.
 
 ## Ten program umożliwia użytkownikowi śledzenie i zarządzanie wydatkami, generowanie raportów oraz importowanie danych z pliku CSV. Jest przykładem prostego budżetu domowego napisanego w języku Python.
