@@ -1,6 +1,6 @@
 import pytest
 import os
-from M07L12_projekt import *
+from budget tracking import *
 
 def test_valid_expense():
     expense = Expense(1, 500, "Warzywa")
