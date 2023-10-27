@@ -3,7 +3,7 @@ import os
 from M07L12_projekt import *
 
 def test_valid_expense():
-    expense = Expense(1, 500, "Warzywa")
+    expense -= Expense(1, 500, "Warzywa")
     assert expense.id == 1
     assert expense.amount == 500
     assert expense.description == "Warzywa"
@@ -13,10 +13,12 @@ def test_invalid_expense():
         Expense(2, 0, "Invalid Expense")
 
 def test_is_big():
-    expense1 = Expense(3,1500, "Big Expense")
-    expense2 = Expense(4, 500, "Small Expense")
-    assert expense1.is_big() is True # rozdziel na dwa testy
-    assert expense2.is_big() is False
+    expense = Expense(3,1500, "Big Expense")
+    assert expense.is_big() is True
+
+def test_is_small():
+    expense = Expense(4, 500, "Small Expense")
+    assert expense.is_big() is False
 
 
 def test_find_new_id():
