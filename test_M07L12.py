@@ -11,6 +11,8 @@ def test_valid_expense():
 def test_invalid_expense():
     with pytest.raises(ValueError):
         Expense(2, 0, "Invalid Expense")
+# Checks whether attempting to create an expense with a zero value results 
+# in raising a ValueError exception, which is the expected behavior.
 
 def test_is_big():
     expense = Expense(3,1500, "Big Expense")
